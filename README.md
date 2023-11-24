@@ -51,6 +51,9 @@ The application runs several services, each corresponding to a different proxy s
 - United States (United States)
 - New York (United States)
 
+P.S - These predefined services are for testing purposes only provided by NordVPN. So you need to have a NordVPN valid Credentials. You can add more services in the docker-compose.yml file.
+
+
 ### Troubleshooting
 
 If you encounter any issues, ensure that:
