@@ -41,15 +41,15 @@ Each Docker container is set up with a unique SOCKS5 proxy server. The applicati
 ### Services
 The application runs several services, each corresponding to a different proxy server location. These are defined in the docker-compose.yml file and include:
 
-Amsterdam
-Atlanta
-Dallas
-Los Angeles
-Netherlands
-Sweden
-Stockholm
-United States
-New York
+- Amsterdam (Netherlands)
+- Atlanta (United States)
+- Dallas (United States)
+- Los Angeles (United States)
+- Netherlands (Netherlands)
+- Sweden (Sweden)
+- Stockholm (Sweden)
+- United States (United States)
+- New York (United States)
 
 ### Troubleshooting
 
