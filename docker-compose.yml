@@ -1,0 +1,115 @@
+version: '3.8'
+
+services:
+  nl:
+    build: .
+    environment:
+      - PROXY_USER=${PROXY_USER}
+      - PROXY_PASS=${PROXY_PASS}
+      - TESTED_URL=${TESTED_URL}
+      - RATE_LIMIT=${RATE_LIMIT}
+      - INTERVAL=${INTERVAL}
+      - PROXY_HOST=nl.socks.nordhold.net
+      - PROXY_PORT=1080
+
+  # se:
+  #   build: .
+  #   environment:
+  #     - PROXY_USER=${PROXY_USER}
+  #     - PROXY_PASS=${PROXY_PASS}
+  #     - TESTED_URL=${TESTED_URL}
+  #     - RATE_LIMIT=${RATE_LIMIT}
+  #     - INTERVAL=${INTERVAL}
+  #     - PROXY_HOST=se.socks.nordhold.net
+  #     - PROXY_PORT=1080
+
+  # stockholm:
+  #   build: .
+  #   environment:
+  #     - PROXY_USER=${PROXY_USER}
+  #     - PROXY_PASS=${PROXY_PASS}
+  #     - TESTED_URL=${TESTED_URL}
+  #     - RATE_LIMIT=${RATE_LIMIT}
+  #     - INTERVAL=${INTERVAL}
+  #     - PROXY_HOST=stockholm.se.socks.nordhold.net
+  #     - PROX_PORT=1080
+
+  # us:
+  #   build: .
+  #   environment:
+  #     - PROXY_USER=${PROXY_USER}
+  #     - PROXY_PASS=${PROXY_PASS}
+  #     - TESTED_URL=${TESTED_URL}
+  #     - RATE_LIMIT=${RATE_LIMIT}
+  #     - INTERVAL=${INTERVAL}
+  #     - PROXY_HOST=us.socks.nordhold.net
+  #     - PROXY_PORT=1080
+
+
+  # dublin:
+  #   build: .
+  #   environment:
+  #     - PROXY_USER=${PROXY_USER}
+  #     - PROXY_PASS=${PROXY_PASS}
+  #     - TESTED_URL=${TESTED_URL}
+  #     - RATE_LIMIT=${RATE_LIMIT}
+  #     - INTERVAL=${INTERVAL}
+  #     - PROXY_HOST=dublin.ie.socks.nordhold.net
+  #     - PROXY_PORT=1080
+
+
+
+  # nl:
+  #   build: .
+  #   environment:
+  #     - PROXY_USER=${PROXY_USER}
+  #     - PROXY_PASS=${PROXY_PASS}
+  #     - TESTED_URL=${TESTED_URL}
+  #     - RATE_LIMIT=${RATE_LIMIT}
+  #     - INTERVAL=${INTERVAL}
+  #     - PROXY_HOST=nl.socks.nordhold.net
+  #     - PROXY_PORT=1080
+
+  # atlanta:
+  #   build: .
+  #   environment:
+  #     - PROXY_USER=${PROXY_USER}
+  #     - PROXY_PASS=${PROXY_PASS}
+  #     - TESTED_URL=${TESTED_URL}
+  #     - RATE_LIMIT=${RATE_LIMIT}
+  #     - INTERVAL=${INTERVAL}
+  #     - PROXY_HOST=atlanta.us.socks.nordhold.net
+  #     - PROXY_PORT=1080
+
+  # dallas:
+  #   build: .
+  #   environment:
+  #     - PROXY_USER=${PROXY_USER}
+  #     - PROXY_PASS=${PROXY_PASS}
+  #     - TESTED_URL=${TESTED_URL}
+  #     - RATE_LIMIT=${RATE_LIMIT}
+  #     - INTERVAL=${INTERVAL}
+  #     - PROXY_HOST=dallas.us.socks.nordhold.net
+  #     - PROXY_PORT=1080
+
+  # los-angeles:
+  #   build: .
+  #   environment:
+  #     - PROXY_USER=${PROXY_USER}
+  #     - PROXY_PASS=${PROXY_PASS}
+  #     - TESTED_URL=${TESTED_URL}
+  #     - RATE_LIMIT=${RATE_LIMIT}
+  #     - INTERVAL=${INTERVAL}
+  #     - PROXY_HOST=los-angeles.us.socks.nordhold.net
+  #     - PROXY_PORT=1080
+
+  # new-york:
+  #   build: .
+  #   environment:
+  #     - PROXY_USER=${PROXY_USER}
+  #     - PROXY_PASS=${PROXY_PASS}
+  #     - TESTED_URL=${TESTED_URL}
+  #     - RATE_LIMIT=${RATE_LIMIT}
+  #     - INTERVAL=${INTERVAL}
+  #     - PROXY_HOST=new-york.us.socks.nordhold.net
+  #     - PROXY_PORT=1080
